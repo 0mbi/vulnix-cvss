@@ -1,7 +1,8 @@
 # vulnix-cvss
 
 vulnix-cvss is a small POC for adding a severity score to 
-the CVEs that come out of vulnix.
+the CVEs that come out of vulnix. It queries per CVE the
+circl api to get the according CVSS.
 
 vulnix-cvss reads the CVEs from STDIN and writes
 the affected CVEs together with its CVSS to STDOUT: 
